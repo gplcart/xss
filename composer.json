@@ -1,0 +1,18 @@
+{
+  "name": "gplcart/xss",
+  "type": "gplcart-module",
+  "description": "Simple XSS filter with the ability to preserve some HTML tags",
+  "keywords": [
+    "gplcart",
+    "ecommerce",
+    "shopping cart",
+    "gplcart module",
+    "php"
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "gplcart/composer-module-installer": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Simple XSS filter",
+  "core": "1.x",
+  "author": "Iurii Makukh <gplcart.software@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "version": "1.0.0-dev",
+  "description": "Simple XSS filter with the ability to preserve some HTML tags",
+  "configure": "admin/module/settings/xss",
+  "settings": {
+    "tags": [
+      "a",
+      "i",
+      "b",
+      "em",
+      "span",
+      "strong",
+      "ul",
+      "ol",
+      "li"
+    ],
+    "protocols": [
+      "http",
+      "ftp",
+      "mailto"
+    ]
+  }
+}
